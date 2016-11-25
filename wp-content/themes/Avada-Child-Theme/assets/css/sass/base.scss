@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+@import 'settings';
+
+body, html {
+  position: relative;
+  height: 100%;
+}
+
+/* Avada modify */
+.fusion-main-menu {
+  margin-top: 20px;
+}
+.fusion-secondary-main-menu,
+.fusion-header {
+  border: none !important;
+}
+.fusion-header{
+  display: none !important;
+}
+.fusion-main-menu > ul > li > a {
+  text-transform: uppercase;
+  border-top: none;
+}
+.fusion-main-menu .current-menu-ancestor > a,
+.fusion-main-menu .current-menu-item > a,
+.fusion-main-menu .current-menu-parent > a,
+.fusion-main-menu .current_page_item > a {
+  border-bottom: 3px solid #000000;
+}
+/* E: Avada modify */

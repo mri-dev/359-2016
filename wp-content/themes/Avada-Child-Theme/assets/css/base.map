@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "sass/base.css",
+	"sources": [
+		"sass/base.scss",
+		"sass/_settings.scss"
+	],
+	"sourcesContent": [
+		"@charset \"UTF-8\";\n\n@import 'settings';\n\nbody, html {\n  position: relative;\n  height: 100%;\n}\n\n/* Avada modify */\n.fusion-main-menu {\n  margin-top: 20px;\n}\n.fusion-secondary-main-menu,\n.fusion-header {\n  border: none !important;\n}\n.fusion-header{\n  display: none !important;\n}\n.fusion-main-menu > ul > li > a {\n  text-transform: uppercase;\n  border-top: none;\n}\n.fusion-main-menu .current-menu-ancestor > a,\n.fusion-main-menu .current-menu-item > a,\n.fusion-main-menu .current-menu-parent > a,\n.fusion-main-menu .current_page_item > a {\n  border-bottom: 3px solid #000000;\n}\n/* E: Avada modify */\n",
+		"$color-pr: #E31F24 ;\r\n$color-sec: #26292B;\r\n"
+	],
+	"mappings": ";AAIA,AAAA,IAAI,EAAE,AAAA,IAAI,CAAC;EACT,QAAQ,EAAE,QAAS;EACnB,MAAM,EAAE,IAAK;CACd;;AAED,kBAAkB;;AAClB,AAAA,iBAAiB,CAAC;EAChB,UAAU,EAAE,IAAK;CAClB;;;AACD,AAAA,2BAA2B;AAC3B,AAAA,cAAc,CAAC;EACb,MAAM,EAAE,eAAgB;CACzB;;;AACD,AAAA,cAAc,CAAA;EACZ,OAAO,EAAE,eAAgB;CAC1B;;;AACD,AAA8B,iBAAb,GAAG,EAAE,GAAG,EAAE,GAAG,CAAC,CAAC;EAC9B,cAAc,EAAE,SAAU;EAC1B,UAAU,EAAE,IAAK;CAClB;;;AACD,AAA2C,iBAA1B,CAAC,sBAAsB,GAAG,CAAC;AAC5C,AAAuC,iBAAtB,CAAC,kBAAkB,GAAG,CAAC;AACxC,AAAyC,iBAAxB,CAAC,oBAAoB,GAAG,CAAC;AAC1C,AAAuC,iBAAtB,CAAC,kBAAkB,GAAG,CAAC,CAAC;EACvC,aAAa,EAAE,iBAAkB;CAClC;;AACD,qBAAqB",
+	"names": []
+}
