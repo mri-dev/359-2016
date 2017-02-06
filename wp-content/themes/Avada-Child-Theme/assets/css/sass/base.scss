@@ -22,10 +22,52 @@ body, html {
   text-transform: uppercase;
   border-top: none;
 }
+#main {
+  padding: 0 !important;
+}
 .fusion-main-menu .current-menu-ancestor > a,
 .fusion-main-menu .current-menu-item > a,
 .fusion-main-menu .current-menu-parent > a,
 .fusion-main-menu .current_page_item > a {
   border-bottom: 3px solid #000000;
 }
+ .fusion-footer-widget-area ul li{
+   display: inline-block !important;
+   *display: inline !important;
+   width: 50% !important;
+   margin: 0 -2px !important;
+   zoom: 1;
+   vertical-align: top !important;
+   padding: 5px !important;
+
+   a{
+     text-transform: uppercase !important;
+     font-size: 0.9em !important;
+
+     &:before {
+       font-family: 'FontAwesome' !important;
+       content:"\f061" !important;
+       color: $color-orange !important;
+       left: -8px;
+       -webkit-transform: rotate(-45deg);
+       -moz-transform: rotate(-45deg);
+       transform: rotate(-45deg);
+     }
+   }
+ }
+
+ .fusion-footer-widget-area{
+   .fusion-columns{
+     .fusion-column {
+       display: inline-block !important;
+       *display: inline !important;
+       width: 50% !important;
+       margin: 0 -2px !important;
+       zoom: 1;
+       vertical-align: bottom !important;
+       float: none !important;
+       clear: both !important;
+     }
+   }
+ }
 /* E: Avada modify */

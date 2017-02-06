@@ -1,0 +1,49 @@
+.content-top-navi{
+
+}
+.fusion-footer{
+  .fb-ico {
+    font-size: 1.5em;
+    line-height: 38px;
+    color: white;
+    float: right;
+    position: relative;
+
+    &:before {
+      font-family: 'FontAwesome';
+      content:"\f09a";
+      position: absolute;
+      left: -55px;
+      color: white;
+      background: #0d6797;
+      border-radius: 38px;
+      line-height: 38px;
+      font-size: 20px;
+      text-align: center;
+      padding: 0;
+      margin: 0;
+      width: 38px;
+    }
+  }
+
+  .copy-logo {
+    padding-left: 80px;
+  }
+
+  .footer-logo-holder{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+    .logo {
+      width: 65px;
+      max-width: 65px;
+
+
+      img {
+        max-width: 100%;
+        width: 100%;
+      }
+    }
+  }
+}

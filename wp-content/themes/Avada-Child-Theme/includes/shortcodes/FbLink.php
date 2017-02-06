@@ -1,7 +1,7 @@
 <?php
-class FooterLogoSc
+class FbLinkSc
 {
-    const SCTAG = 'footer-logo';
+    const SCTAG = 'fb-link';
 
     public function __construct()
     {
@@ -14,7 +14,7 @@ class FooterLogoSc
 
     public function do_shortcode( $attr, $content = null )
     {
-        $output = '<div class="'.self::SCTAG.'-holder">';
+        $output = '';
 
     	  /* Set up the default arguments. */
         $defaults = apply_filters(
@@ -25,9 +25,7 @@ class FooterLogoSc
         );
         /* Parse the arguments. */
         $attr = shortcode_atts( $defaults, $attr );
-        $output .= '<div class="logo"><img src="'.IMG.'/krakko_pik_white.svg" alt="'.get_option('blogname', '').'"/></div>';
-        $output .= '</div>';
-
+        $output .= 'http://facebook.com/';
 
         /* Return the output of the tooltip. */
         return apply_filters( self::SCTAG, $output );
@@ -35,6 +33,6 @@ class FooterLogoSc
 
 }
 
-new FooterLogoSc();
+new FbLinkSc();
 
 ?>
