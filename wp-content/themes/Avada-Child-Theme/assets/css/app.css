@@ -1,4 +1,32 @@
+/* line 2, sass/app.scss */
+.content-top-navi {
+  font-size: 1.3em;
+}
 /* line 5, sass/app.scss */
+.content-top-navi i {
+  color: #717171;
+  font-size: 18px;
+  margin: 20px 0 10px 0;
+}
+/* line 10, sass/app.scss */
+.content-top-navi a {
+  color: #939292 !important;
+}
+/* line 12, sass/app.scss */
+.content-top-navi a:hover {
+  color: #777777 !important;
+}
+/* line 17, sass/app.scss */
+.content-top-navi .navi-orange-style {
+  background: #faa629;
+  color: white;
+}
+/* line 21, sass/app.scss */
+.content-top-navi .navi-orange-style i, .content-top-navi .navi-orange-style a {
+  color: white !important;
+}
+
+/* line 27, sass/app.scss */
 .fusion-footer .fb-ico {
   font-size: 1.5em;
   line-height: 38px;
@@ -6,7 +34,7 @@
   float: right;
   position: relative;
 }
-/* line 12, sass/app.scss */
+/* line 34, sass/app.scss */
 .fusion-footer .fb-ico:before {
   font-family: 'FontAwesome';
   content: "\f09a";
@@ -22,23 +50,100 @@
   margin: 0;
   width: 38px;
 }
-/* line 29, sass/app.scss */
+/* line 51, sass/app.scss */
 .fusion-footer .copy-logo {
   padding-left: 80px;
 }
-/* line 33, sass/app.scss */
+/* line 55, sass/app.scss */
 .fusion-footer .footer-logo-holder {
   position: absolute;
   left: 0;
   bottom: 0;
 }
-/* line 38, sass/app.scss */
+/* line 60, sass/app.scss */
 .fusion-footer .footer-logo-holder .logo {
   width: 65px;
   max-width: 65px;
 }
-/* line 43, sass/app.scss */
+/* line 65, sass/app.scss */
 .fusion-footer .footer-logo-holder .logo img {
   max-width: 100%;
   width: 100%;
+}
+
+/* line 74, sass/app.scss */
+.krakko-card-home h1 {
+  color: #faa629 !important;
+  font-weight: bold !important;
+  font-family: 'Open Sans' !important;
+  font-size: 38px !important;
+  margin: 0 0 20px 0 !important;
+}
+
+/* line 85, sass/app.scss */
+.sc-loadpage-loadfromparent-holder.style-2x2 .load-page-item {
+  background: #353946;
+  color: white;
+}
+/* line 89, sass/app.scss */
+.sc-loadpage-loadfromparent-holder.style-2x2 .load-page-item .lpi-wrapper {
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+/* line 94, sass/app.scss */
+.sc-loadpage-loadfromparent-holder.style-2x2 .load-page-item .lpi-wrapper .item-data, .sc-loadpage-loadfromparent-holder.style-2x2 .load-page-item .lpi-wrapper .item-image {
+  flex-basis: calc(100%/2);
+}
+/* line 97, sass/app.scss */
+.sc-loadpage-loadfromparent-holder.style-2x2 .load-page-item .lpi-wrapper .item-data {
+  font-size: 1.1em;
+}
+/* line 100, sass/app.scss */
+.sc-loadpage-loadfromparent-holder.style-2x2 .load-page-item .lpi-wrapper .item-data .title h2 {
+  font-size: 1.8em !important;
+  line-height: 1 !important;
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold !important;
+  font-family: 'Open Sans' !important;
+}
+/* line 114, sass/app.scss */
+.sc-loadpage-loadfromparent-holder.style-2x2 .load-page-item .lpi-wrapper .item-image img {
+  width: 100%;
+  max-width: 100%;
+}
+/* line 123, sass/app.scss */
+.sc-loadpage-loadfromparent-holder.style-2x2 .load-page-item.pos-left .item-data .cwrapper {
+  padding: 0 20px 0 25%;
+  text-align: right;
+}
+/* line 130, sass/app.scss */
+.sc-loadpage-loadfromparent-holder.style-2x2 .load-page-item.pos-right .item-data {
+  order: 2;
+}
+/* line 132, sass/app.scss */
+.sc-loadpage-loadfromparent-holder.style-2x2 .load-page-item.pos-right .item-data .cwrapper {
+  padding: 0 25% 0 20px;
+  text-align: left;
+}
+/* line 137, sass/app.scss */
+.sc-loadpage-loadfromparent-holder.style-2x2 .load-page-item.pos-right .item-image {
+  order: 1;
+}
+/* line 142, sass/app.scss */
+.sc-loadpage-loadfromparent-holder.style-2x2 .load-page-item.bg-orange {
+  background: #faa629 !important;
+}
+/* line 145, sass/app.scss */
+.sc-loadpage-loadfromparent-holder.style-2x2 .load-page-item.bg-white {
+  background: #ffffff !important;
+}
+/* line 149, sass/app.scss */
+.sc-loadpage-loadfromparent-holder.style-2x2 .load-page-item.bg-white .item-data .title h2 {
+  color: #faa629 !important;
+}
+/* line 153, sass/app.scss */
+.sc-loadpage-loadfromparent-holder.style-2x2 .load-page-item.bg-white .item-data .excerpt {
+  color: #444444;
 }

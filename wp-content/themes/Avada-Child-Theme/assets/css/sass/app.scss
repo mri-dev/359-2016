@@ -1,5 +1,27 @@
+@import 'settings';
 .content-top-navi{
+  font-size: 1.3em;
 
+  i {
+    color: #717171;
+    font-size: 18px;
+    margin: 20px 0 10px 0;
+  }
+  a{
+    color: #939292 !important;
+    &:hover {
+      color: #777777 !important;
+    }
+  }
+
+  .navi-orange-style{
+    background: $color-orange;
+    color: white;
+
+    i, a {
+      color: white !important;
+    }
+  }
 }
 .fusion-footer{
   .fb-ico {
@@ -43,6 +65,95 @@
       img {
         max-width: 100%;
         width: 100%;
+      }
+    }
+  }
+}
+
+.krakko-card-home {
+  h1 {
+    color: $color-orange !important;
+    font-weight: bold !important;
+    font-family: 'Open Sans' !important;
+    font-size: 38px !important;
+    margin: 0 0 20px 0 !important;
+  }
+}
+
+.sc-loadpage-loadfromparent-holder{
+  &.style-2x2{
+    .load-page-item {
+      background: #353946;
+      color: white;
+
+      .lpi-wrapper {
+        display: flex;
+        align-items: center;
+        padding: 0;
+
+        .item-data, .item-image{
+          flex-basis: calc(100%/2);
+        }
+        .item-data{
+          font-size: 1.1em;
+          .title {
+            h2 {
+              font-size: 1.8em !important;
+              line-height: 1 !important;
+              text-transform: uppercase;
+              color: white;
+              font-weight: bold !important;
+              font-family: 'Open Sans' !important;
+            }
+          }
+          .excerpt{
+
+          }
+        }
+        .item-image {
+          img {
+            width: 100%;
+            max-width: 100%;
+          }
+        }
+      }
+
+      &.pos-left {
+        .item-data {
+          .cwrapper {
+            padding: 0 20px 0 25%;
+            text-align: right;
+          }
+        }
+      }
+      &.pos-right {
+        .item-data {
+          order: 2;
+          .cwrapper {
+            padding: 0 25% 0 20px;
+            text-align: left;
+          }
+        }
+        .item-image {
+          order: 1;
+        }
+      }
+
+      &.bg-orange {
+        background: $color-orange !important;
+      }
+      &.bg-white {
+        background: #ffffff !important;
+        .item-data{
+          .title {
+            h2 {
+              color: $color-orange !important;
+            }
+          }
+          .excerpt{
+            color: #444444;
+          }
+        }
       }
     }
   }

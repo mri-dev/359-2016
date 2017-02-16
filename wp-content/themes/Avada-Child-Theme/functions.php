@@ -61,8 +61,10 @@ function ucid()
 function jk_init()
 {
   date_default_timezone_set('Europe/Budapest');
+  add_post_type_support( 'page', 'excerpt' );
 }
 add_action('init', 'jk_init');
+
 
 function get_control_controller( $controller_class )
 { global $wp_query;
