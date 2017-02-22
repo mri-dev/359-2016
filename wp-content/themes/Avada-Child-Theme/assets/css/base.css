@@ -1,39 +1,38 @@
-@charset "UTF-8";
-/* line 5, sass/base.scss */
+/* line 5, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/base.scss */
 body, html {
   position: relative;
   height: 100%;
 }
 
 /* Avada modify */
-/* line 11, sass/base.scss */
+/* line 11, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/base.scss */
 .fusion-main-menu {
   margin-top: 20px;
 }
 
-/* line 15, sass/base.scss */
+/* line 14, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/base.scss */
 .fusion-secondary-main-menu,
 .fusion-header {
   border: none !important;
 }
 
-/* line 18, sass/base.scss */
+/* line 18, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/base.scss */
 .fusion-header {
   display: none !important;
 }
 
-/* line 21, sass/base.scss */
+/* line 21, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/base.scss */
 .fusion-main-menu > ul > li > a {
   text-transform: uppercase;
   border-top: none;
 }
 
-/* line 25, sass/base.scss */
+/* line 25, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/base.scss */
 #main {
   padding: 0 !important;
 }
 
-/* line 31, sass/base.scss */
+/* line 28, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/base.scss */
 .fusion-main-menu .current-menu-ancestor > a,
 .fusion-main-menu .current-menu-item > a,
 .fusion-main-menu .current-menu-parent > a,
@@ -41,7 +40,7 @@ body, html {
   border-bottom: 3px solid #000000;
 }
 
-/* line 34, sass/base.scss */
+/* line 34, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/base.scss */
 .fusion-footer-widget-area ul li {
   display: inline-block !important;
   *display: inline !important;
@@ -51,12 +50,14 @@ body, html {
   vertical-align: top !important;
   padding: 5px !important;
 }
-/* line 43, sass/base.scss */
+
+/* line 43, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/base.scss */
 .fusion-footer-widget-area ul li a {
   text-transform: uppercase !important;
   font-size: 0.9em !important;
 }
-/* line 47, sass/base.scss */
+
+/* line 47, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/base.scss */
 .fusion-footer-widget-area ul li a:before {
   font-family: 'FontAwesome' !important;
   content: "\f061" !important;
@@ -67,7 +68,7 @@ body, html {
   transform: rotate(-45deg);
 }
 
-/* line 61, sass/base.scss */
+/* line 61, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/base.scss */
 .fusion-footer-widget-area .fusion-columns .fusion-column {
   display: inline-block !important;
   *display: inline !important;
@@ -80,3 +81,5 @@ body, html {
 }
 
 /* E: Avada modify */
+
+/*# sourceMappingURL=../base.map */

@@ -1,17 +1,11 @@
 <?php
-  $bgc = 'white';
+  $bgc = 'default';
   $last = false;
 
   if ($max_item == $i) {
     $last = true;
   }
 
-  if (!empty($bgcolor['orange']) && in_array($i, $bgcolor['orange'])) {
-    $bgc = 'orange';
-  }
-  if (!empty($bgcolor['grey']) && in_array($i, $bgcolor['grey'])) {
-    $bgc = 'default';
-  }
 ?>
 <div class="load-page-item item-<?php echo $i; ?> pos-<?php echo $pos; ?> bg-<?php echo $bgc; ?>">
   <div class="lpi-wrapper">

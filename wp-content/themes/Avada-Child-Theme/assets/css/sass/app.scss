@@ -1,4 +1,13 @@
 @import 'settings';
+
+body.term-iskolaknak {
+  &.tax-utazas_kategoria{
+    .fusion-row{
+      width: 100% !important;
+      max-width: 100% !important;
+    }
+  }
+}
 .content-top-navi{
   font-size: 1.3em;
 
@@ -80,10 +89,62 @@
   }
 }
 
-.sc-loadpage-loadfromparent-holder{
+.page-top-link{
+  background: #ECECEC !important;
+  padding: 30px;
+  color: #979797 !important;
+  text-transform: uppercase !important;
+  font-size: 1.4em !important;
+
+  .fusion-button-text{
+    color: #979797 !important;
+  }
+
+  &.link-orange {
+    background: $color-orange !important;
+    color: white !important;
+
+    .fusion-button-text{
+      color: #ffffff !important;
+    }
+  }
+}
+
+.fusion-main-menu .sub-menu{
+  border-top: none;
+}
+
+.fusion-main-menu .sub-menu li{
+  position: relative;
+
+  a{
+    padding-left: 15px;
+  }
+  &:after {
+    content: "";
+    height: 1px;
+    background: #f7cf56;
+    width: 80%;
+    position: absolute;
+    left: 50%;
+    bottom: -1px;
+    z-index: 1000;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+  &:last-child{
+    &:after {
+      display: none;
+    }
+  }
+}
+
+.sc-loadpage-loadfromparent-holder,
+.sc-loadpage-loadfromtaxonomy-holder{
   &.style-2x2{
     .load-page-item {
-      background: #353946;
+      background: #32343c;
       color: white;
 
       .lpi-wrapper {
