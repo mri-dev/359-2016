@@ -28,7 +28,7 @@ class LoadPage
               'where' => 'home',
               'buttons' => 1,
               'bgcolor_orange' => '0',
-              'bgcolor_white' => '0',
+              'bgcolor_grey' => '0',
             )
         );
         /* Parse the arguments. */
@@ -58,7 +58,7 @@ class LoadPage
 
       $data = array();
       $data['post'] = $post;
-
+      $data['attr'] = $this->attr;
 
       // View
       $t = new ShortcodeTemplates(__CLASS__.'/'.__FUNCTION__.( ($this->template ) ? '-'.$this->template:'' ));
@@ -71,6 +71,8 @@ class LoadPage
         'post_per_page' => -1
       ));
 
+      $data['max_item'] = (int)count($pages);
+
       if ($pages) {
         $pos = 'right';
         $i = 0;
@@ -79,9 +81,9 @@ class LoadPage
           $bg_orange = (array)explode(',', $this->attr['bgcolor_orange']);
           $data['bgcolor']['orange'] = $bg_orange;
         }
-        if(!empty($this->attr['bgcolor_white']) && $this->attr['bgcolor_white'] != 0) {
-          $bg_white = (array)explode(',', $this->attr['bgcolor_white']);
-          $data['bgcolor']['white'] = $bg_white;
+        if(!empty($this->attr['bgcolor_grey']) && $this->attr['bgcolor_grey'] != 0) {
+          $bg_grey = (array)explode(',', $this->attr['bgcolor_grey']);
+          $data['bgcolor']['grey'] = $bg_grey;
         }
 
         foreach ($pages as $page) {

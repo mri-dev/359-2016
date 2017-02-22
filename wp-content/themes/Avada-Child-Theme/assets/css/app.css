@@ -108,42 +108,78 @@
   font-weight: bold !important;
   font-family: 'Open Sans' !important;
 }
-/* line 114, sass/app.scss */
+/* line 107, sass/app.scss */
+.sc-loadpage-loadfromparent-holder.style-2x2 .load-page-item .lpi-wrapper .item-data .title h2 a {
+  color: white;
+}
+/* line 110, sass/app.scss */
+.sc-loadpage-loadfromparent-holder.style-2x2 .load-page-item .lpi-wrapper .item-data .title h2 a:hover {
+  color: #b0b0b0;
+}
+/* line 116, sass/app.scss */
+.sc-loadpage-loadfromparent-holder.style-2x2 .load-page-item .lpi-wrapper .item-data .title a.fusion-button {
+  background: #faa629;
+  color: white;
+  padding: 4px 40px;
+  margin-top: 10px;
+}
+/* line 123, sass/app.scss */
+.sc-loadpage-loadfromparent-holder.style-2x2 .load-page-item .lpi-wrapper .item-data .excerpt {
+  font-size: 0.9em;
+}
+/* line 128, sass/app.scss */
 .sc-loadpage-loadfromparent-holder.style-2x2 .load-page-item .lpi-wrapper .item-image img {
   width: 100%;
   max-width: 100%;
 }
-/* line 123, sass/app.scss */
+/* line 137, sass/app.scss */
 .sc-loadpage-loadfromparent-holder.style-2x2 .load-page-item.pos-left .item-data .cwrapper {
-  padding: 0 20px 0 25%;
+  padding: 0 50px 0 25%;
   text-align: right;
 }
-/* line 130, sass/app.scss */
+/* line 144, sass/app.scss */
 .sc-loadpage-loadfromparent-holder.style-2x2 .load-page-item.pos-right .item-data {
   order: 2;
 }
-/* line 132, sass/app.scss */
+/* line 146, sass/app.scss */
 .sc-loadpage-loadfromparent-holder.style-2x2 .load-page-item.pos-right .item-data .cwrapper {
-  padding: 0 25% 0 20px;
+  padding: 0 25% 0 50px;
   text-align: left;
 }
-/* line 137, sass/app.scss */
+/* line 151, sass/app.scss */
 .sc-loadpage-loadfromparent-holder.style-2x2 .load-page-item.pos-right .item-image {
   order: 1;
 }
-/* line 142, sass/app.scss */
+/* line 156, sass/app.scss */
 .sc-loadpage-loadfromparent-holder.style-2x2 .load-page-item.bg-orange {
   background: #faa629 !important;
 }
-/* line 145, sass/app.scss */
+/* line 159, sass/app.scss */
+.sc-loadpage-loadfromparent-holder.style-2x2 .load-page-item.bg-orange a:hover {
+  color: #fae8cd !important;
+}
+/* line 162, sass/app.scss */
+.sc-loadpage-loadfromparent-holder.style-2x2 .load-page-item.bg-orange a.fusion-button {
+  background: white !important;
+  color: #faa629 !important;
+}
+/* line 167, sass/app.scss */
 .sc-loadpage-loadfromparent-holder.style-2x2 .load-page-item.bg-white {
   background: #ffffff !important;
 }
-/* line 149, sass/app.scss */
+/* line 171, sass/app.scss */
 .sc-loadpage-loadfromparent-holder.style-2x2 .load-page-item.bg-white .item-data .title h2 {
   color: #faa629 !important;
 }
-/* line 153, sass/app.scss */
+/* line 173, sass/app.scss */
+.sc-loadpage-loadfromparent-holder.style-2x2 .load-page-item.bg-white .item-data .title h2 a {
+  color: #faa629 !important;
+}
+/* line 176, sass/app.scss */
+.sc-loadpage-loadfromparent-holder.style-2x2 .load-page-item.bg-white .item-data .title h2 a:hover {
+  color: #fbbb5b !important;
+}
+/* line 182, sass/app.scss */
 .sc-loadpage-loadfromparent-holder.style-2x2 .load-page-item.bg-white .item-data .excerpt {
   color: #444444;
 }

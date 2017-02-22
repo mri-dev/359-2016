@@ -1,13 +1,18 @@
 <?php
-  $bgc = 'default';
+  $bgc = 'white';
+  $last = false;
+
+  if ($max_item == $i) {
+    $last = true;
+  }
+
 
   if (!empty($bgcolor['orange']) && in_array($i, $bgcolor['orange'])) {
     $bgc = 'orange';
   }
-  if (!empty($bgcolor['white']) && in_array($i, $bgcolor['white'])) {
-    $bgc = 'white';
+  if (!empty($bgcolor['grey']) && in_array($i, $bgcolor['grey'])) {
+    $bgc = 'default';
   }
-
 
 ?>
 <div class="load-page-item item-<?php echo $i; ?> pos-<?php echo $pos; ?> bg-<?php echo $bgc; ?>">
@@ -15,10 +20,19 @@
     <div class="item-data">
       <div class="cwrapper">
         <div class="title">
-          <h2><?php echo $row->post_title; ?></h2>
+          <h2>
+            <?php if ($attr['buttons'] == 1): ?>
+              <a href="<?php echo get_permalink($row->ID); ?>"><?php echo $row->post_title; ?></a>
+            <?php else: ?>
+              <?php echo $row->post_title; ?>
+            <?php endif; ?>
+          </h2>
           <div class="excerpt">
             <?php echo $row->post_excerpt; ?>
           </div>
+          <?php if ($attr['buttons'] == 1): ?>
+            <a class="fusion-button" href="<?php echo get_permalink($row->ID); ?>"><?php echo __('Tovább', TD); ?></a>
+          <?php endif; ?>
         </div>
       </div>
     </div>
