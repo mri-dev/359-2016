@@ -6,8 +6,146 @@ body.term-iskolaknak {
       width: 100% !important;
       max-width: 100% !important;
     }
+
+    .fusion-footer{
+      .fusion-row{
+        width: $page-width !important;
+        max-width: $page-width !important;
+      }
+    }
   }
 }
+
+body.single-utazas {
+  #content {
+    position: relative;
+    margin-top: -110px;
+  }
+
+  .header {
+    .title {
+      h1{
+        text-transform: uppercase;
+        color: white;
+        font-size: 2.8em;
+        margin: 0;
+        line-height: 90px;
+      }
+    }
+    .square-buttons{
+      margin-bottom: 20px;
+    }
+  }
+
+  .fusion-row{
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  .fusion-footer{
+    .fusion-row{
+      width: $page-width !important;
+      max-width: $page-width !important;
+    }
+  }
+
+  .inside-pagewidth {
+    padding: 20px 0;
+    width: $page-width !important;
+    max-width: $page-width !important;
+    margin: 0 auto;
+  }
+
+  .desc{
+    padding: 5px 0;
+
+    h1 {
+      text-transform: uppercase;
+      color: $color-orange;
+      margin: 0 0 25px 0;
+    }
+  }
+
+  .price_desc{
+    padding: 20px 0;
+    background: $color-sec;
+    color: white;
+
+    h2 {
+      color: white;
+      text-transform: uppercase;
+      font-weight: bold !important;
+      font-family: 'Open Sans' !important;
+    }
+  }
+
+  .program_desc{
+    padding: 20px 0;
+    background: $color-orange;
+    color: white;
+
+    h2 {
+      color: white;
+      text-transform: uppercase;
+      font-weight: bold !important;
+      font-family: 'Open Sans' !important;
+    }
+  }
+}
+
+.square-buttons{
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: table;
+    background: #eae9e9;
+    position: relative;
+
+    li {
+      display: table-cell;
+      margin: 0;
+      padding: 0;
+      width: calc(100%/3);
+      vertical-align: middle;
+      border-right: 1px solid #ffffff;
+
+      &:after {
+        content:"";
+        right: 0;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        width: 1px;
+        background: #ffffff;
+      }
+
+      a {
+        text-align: center;
+        line-height: 1.3;
+        display: block;
+        font-size: 1.5em;
+        height: 100%;
+        padding: 30px 10px;
+        color: #939292;
+        text-transform: uppercase;
+      }
+
+      &:last-child {
+        border-right: none;
+      }
+
+      &.active {
+        background: $color-orange;
+        a {
+          color: white;
+        }
+      }
+    }
+  }
+}
+
+
 .content-top-navi{
   font-size: 1.3em;
 
