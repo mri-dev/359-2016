@@ -6,6 +6,8 @@ define('GOOGLE_API_KEY', 'AIzaSyA0Mu8_XYUGo9iXhoenj7HTPBIfS2jDU2E');
 define('VENDORS', IFROOT.'/assets/vendor');
 define('FONTAWESOME_VERSION', '4.7.0');
 define('TD', 'jk'); // Textdomain
+define('METAKEY_PREFIX', 'jkapp_'); // Textdomain
+
 
 // Includes
 //require_once WP_PLUGIN_DIR."/cmb2/init.php";

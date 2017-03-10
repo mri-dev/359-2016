@@ -80,7 +80,7 @@ class CustomMetabox
       if ( wp_is_post_revision( $post_id ) ) {
           return;
       }
-      
+
       $this->save_fnc->saving( $post_id, $post );
   }
 }
