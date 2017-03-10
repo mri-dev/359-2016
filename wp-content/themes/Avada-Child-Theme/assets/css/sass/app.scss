@@ -282,8 +282,7 @@ body.single-utazas {
 .sc-loadpage-loadfromtaxonomy-holder{
   &.style-2x2{
     .load-page-item {
-      background: #32343c;
-      color: white;
+      background: #ffffff;
 
       .lpi-wrapper {
         display: flex;
@@ -304,10 +303,10 @@ body.single-utazas {
               font-weight: bold !important;
               font-family: 'Open Sans' !important;
               a{
-                color: white;
+                color: #444444;
 
                 &:hover {
-                  color: #b0b0b0;
+                  color: #111111;
                 }
               }
             }
@@ -354,7 +353,11 @@ body.single-utazas {
 
       &.bg-orange {
         background: $color-orange !important;
+        color: white;
 
+        a{
+          color: white !important;
+        }
         a:hover {
           color: #fae8cd !important;
         }
@@ -363,8 +366,11 @@ body.single-utazas {
           color:  $color-orange !important;
         }
       }
-      &.bg-white {
-        background: #ffffff !important;
+
+      &.bg-grey {
+        background: #32343c;
+        color: white !important;
+
         .item-data{
           .title {
             h2 {
@@ -377,9 +383,6 @@ body.single-utazas {
                 }
               }
             }
-          }
-          .excerpt{
-            color: #444444;
           }
         }
       }

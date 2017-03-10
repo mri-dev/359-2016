@@ -56,6 +56,7 @@ class CustomMetabox
       $nonce_name   = isset( $_POST[$this->nonce_key] ) ? $_POST[$this->nonce_key] : '';
       $nonce_action = $this->nonce_key.'_action';
 
+
       // Check if nonce is set.
       if ( ! isset( $nonce_name ) ) {
           return;

@@ -8,7 +8,6 @@
 
 			//print_r($cat);
 
-
       if( in_array($slide_slug, $slider_list) ) {
         echo do_shortcode('[rev_slider alias="'.$slide_slug.'"]');
       }

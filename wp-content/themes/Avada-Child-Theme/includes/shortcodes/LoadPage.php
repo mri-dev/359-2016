@@ -27,8 +27,6 @@ class LoadPage
               'view' => '2x2',
               'where' => 'home',
               'buttons' => 1,
-              'bgcolor_orange' => '0',
-              'bgcolor_grey' => '0',
               'content' => 'excerpt',
               'posttype' => 'page',
               'category' => false
@@ -91,22 +89,15 @@ class LoadPage
         $pos = 'right';
         $i = 0;
 
-        if(!empty($this->attr['bgcolor_orange']) && $this->attr['bgcolor_orange'] != 0) {
-          $bg_orange = (array)explode(',', $this->attr['bgcolor_orange']);
-          $data['bgcolor']['orange'] = $bg_orange;
-        }
-        if(!empty($this->attr['bgcolor_grey']) && $this->attr['bgcolor_grey'] != 0) {
-          $bg_grey = (array)explode(',', $this->attr['bgcolor_grey']);
-          $data['bgcolor']['grey'] = $bg_grey;
-        }
-
         foreach ($pages as $page) {
           $i++;
           $pos = ($pos == 'right') ? 'left' : 'right';
+          $style = get_post_meta($page->ID, METAKEY_PREFIX . 'lista_stilus', true);
 
           $data['row'] = $page;
           $data['i'] = $i;
           $data['pos'] = $pos;
+          $data['style'] = (empty($style)) ? 'default' : $style;
 
           $o .= $t->load_template($data);
         }

@@ -3,7 +3,6 @@
     $metakey = METAKEY_PREFIX . 'lista_stilus';
     $current_style =  get_post_meta($post->ID, $metakey, true);
     $current_style = (empty($current_style) || !$current_style) ? 'default' : $current_style;
-
   ?>
   <label><strong><?php echo __('Lista stílus (szín)', TD); ?></strong></label>
   <div class="">
@@ -17,7 +16,7 @@
   <label for="<?=$metakey?>"><strong><?php echo __('Ár tartalmazza', TD); ?></strong></label>
   <?php
     $ar_content = get_post_meta($post->ID, $metakey, true);
-    wp_editor( $ar_contentm, $metakey );
+    wp_editor( $ar_content, $metakey );
   ?>
 </p>
 <p>

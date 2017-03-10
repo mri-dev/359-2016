@@ -16,11 +16,9 @@
   </div>
   <?php
   $subpage = 'idopontok.php';
-
   if (isset($_GET['sub']) && in_array($_GET['sub'], array('ajanlatkeres', 'kapcsolatfelvetel'))) {
     $subpage = $_GET['sub'].'.php';
   }
-
   ?>
   <div class="subpage-container subpage-of-<?php echo str_replace('.php', '', $subpage); ?>">
     <div class="inside-pagewidth">
@@ -29,21 +27,37 @@
       </div>
     </div>
   </div>
+  <?php
+    $ar_content = get_post_meta($post->ID, METAKEY_PREFIX . 'ar_tartalmazza', true);
+    if (!empty($ar_content) && $ar_content != ""):
+  ?>
   <div class="price_desc">
     <div class="inside-pagewidth">
       <h2><?php echo __('Az ár tartalmazza', TD); ?></h2>
+      <div class="text-content">
+        <?php echo apply_filters('the_content', $ar_content); ?>
+      </div>
     </div>
   </div>
+  <?php endif; ?>
   <div class="desc">
     <div class="inside-pagewidth">
       <?php echo apply_filters('the_content', $post->post_content); ?>
     </div>
   </div>
+  <?php
+    $program_content = get_post_meta($post->ID, METAKEY_PREFIX . 'programok_content', true);
+    if (!empty($program_content) && $program_content != ""):
+  ?>
   <div class="program_desc">
     <div class="inside-pagewidth">
       <h2><?php echo __('Programok', TD); ?></h2>
+      <div class="text-content">
+        <?php echo apply_filters('the_content', $program_content); ?>
+      </div>
     </div>
   </div>
+  <?php endif; ?>
 </div>
 <?php do_action( 'avada_after_content' ); ?>
 <?php get_footer();

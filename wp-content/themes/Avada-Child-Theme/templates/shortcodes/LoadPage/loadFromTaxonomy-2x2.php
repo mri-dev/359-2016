@@ -1,13 +1,11 @@
 <?php
-  $bgc = 'default';
   $last = false;
 
   if ($max_item == $i) {
     $last = true;
   }
-
 ?>
-<div class="load-page-item item-<?php echo $i; ?> pos-<?php echo $pos; ?> bg-<?php echo $bgc; ?>">
+<div class="load-page-item item-<?php echo $i; ?> pos-<?php echo $pos; ?> bg-<?php echo $style; ?>">
   <div class="lpi-wrapper">
     <div class="item-data">
       <div class="cwrapper">

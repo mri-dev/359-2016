@@ -8,7 +8,6 @@ define('FONTAWESOME_VERSION', '4.7.0');
 define('TD', 'jk'); // Textdomain
 define('METAKEY_PREFIX', 'jkapp_'); // Textdomain
 
-
 // Includes
 //require_once WP_PLUGIN_DIR."/cmb2/init.php";
 require_once "includes/include.php";
@@ -22,7 +21,6 @@ function theme_enqueue_styles() {
     //wp_enqueue_style( 'slick', IFROOT . '/assets/vendor/slick/slick.css' );
     //wp_enqueue_style( 'slick-theme', IFROOT . '/assets/css/slick-theme.css?t=' . ( (DEVMODE === true) ? time() : '' ) );
     //wp_enqueue_script( 'slick', IFROOT . '/assets/vendor/slick/slick.min.js', array('jquery'));
-
 
     wp_enqueue_script( 'google-maps', '//maps.googleapis.com/maps/api/js?language=hu&region=hu&key='.GOOGLE_API_KEY);
     //wp_enqueue_script( 'mocjax', IFROOT . '/assets/vendor/autocomplete/scripts/jquery.mockjax.js');
@@ -150,4 +148,20 @@ add_action( 'init', 'ajax_requests' );
 function get_ajax_url( $function )
 {
   return admin_url('admin-ajax.php?action='.$function);
+}
+
+function auto_update_post_meta( $post_id, $field_name, $value = '' )
+{
+    if ( empty( $value ) OR ! $value )
+    {
+      delete_post_meta( $post_id, $field_name );
+    }
+    elseif ( ! get_post_meta( $post_id, $field_name ) )
+    {
+      add_post_meta( $post_id, $field_name, $value );
+    }
+    else
+    {
+      update_post_meta( $post_id, $field_name, $value );
+    }
 }
