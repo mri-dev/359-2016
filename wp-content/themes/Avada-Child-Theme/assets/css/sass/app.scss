@@ -299,7 +299,7 @@ body.single-utazas {
               font-size: 1.8em !important;
               line-height: 1 !important;
               text-transform: uppercase;
-              color: white;
+              color: #444444;
               font-weight: bold !important;
               font-family: 'Open Sans' !important;
               a{
@@ -353,9 +353,9 @@ body.single-utazas {
 
       &.bg-orange {
         background: $color-orange !important;
-        color: white;
+        color: white !important;
 
-        a{
+        .title h2, a{
           color: white !important;
         }
         a:hover {
@@ -374,17 +374,46 @@ body.single-utazas {
         .item-data{
           .title {
             h2 {
-              color: $color-orange !important;
+              color: white !important;
               a{
-                color: $color-orange !important;
+                color: white !important;
 
                 &:hover {
-                  color: lighten($color-orange, 10%) !important;
+                  color: darken(white, 10%) !important;
                 }
               }
             }
           }
         }
+      }
+    }
+  }
+}
+.utazas-contact-static{
+  margin-bottom: 20px;
+  font-size: 1.1em;
+  .line {
+    margin: 10px 0;
+
+    strong {
+      color: black;
+      font-weight: bold;
+    }
+  }
+}
+
+.autoform-holder {
+  .form-part-group{
+    border-top: 1px solid $color-orange;
+    margin: 10px 0;
+
+    .head {
+      
+      h3 {
+        text-transform: uppercase;
+        font-weight: bold;
+        color: $color-orange;
+        font-family: 'Arial';
       }
     }
   }

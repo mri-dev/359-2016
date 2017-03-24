@@ -29,7 +29,9 @@ class LoadPage
               'buttons' => 1,
               'content' => 'excerpt',
               'posttype' => 'page',
-              'category' => false
+              'category' => false,
+              'bgcolor_orange' => '',
+              'bgcolor_grey' => ''
             )
         );
         /* Parse the arguments. */

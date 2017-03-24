@@ -3,4 +3,5 @@
 	require_once "FooterLogo.php";
 	require_once "FooterSocials.php";
   require_once "FbLink.php";
+  require_once "Autoform.php";
 ?>

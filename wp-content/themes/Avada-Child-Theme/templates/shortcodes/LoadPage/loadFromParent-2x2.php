@@ -1,5 +1,5 @@
 <?php
-  $bgc = 'white';
+  $bgc = 'default';
   $last = false;
 
   if ($max_item == $i) {
@@ -10,7 +10,7 @@
     $bgc = 'orange';
   }
   if (!empty($bgcolor['grey']) && in_array($i, $bgcolor['grey'])) {
-    $bgc = 'default';
+    $bgc = 'grey';
   }
 ?>
 <div class="load-page-item item-<?php echo $i; ?> pos-<?php echo $pos; ?> bg-<?php echo $bgc; ?>">
