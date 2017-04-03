@@ -405,15 +405,114 @@ body.single-utazas {
 .autoform-holder {
   .form-part-group{
     border-top: 1px solid $color-orange;
-    margin: 10px 0;
-
+    margin: 20px 0 10px 0;
     .head {
-      
       h3 {
         text-transform: uppercase;
         font-weight: bold;
         color: $color-orange;
         font-family: 'Arial';
+        margin: 10px 0 5px 0;
+      }
+    }
+
+    .input-holder {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      flex-wrap: wrap;
+      margin: 0 -10px;
+
+      .input {
+        flex-basis: 100%;
+        .iwrapper{
+          padding: 10px;
+          label:not(.cb) {
+            display: block;
+
+            padding: 0 0 5px 0;
+            font-weight: bold;
+          }
+
+          input[type=text],
+          input[type=number],
+          textarea {
+            padding: 0 12px;
+            line-height: 40px;
+            height: 40px;
+            font-size: 1.1em;
+            border-color: #d2d2d2;
+            border-style: solid;
+            border-width: 1px;
+          }
+         input[type=number]{
+           display: block;
+           width: 100%;
+         }
+          textarea {
+            width: 100%;
+            display: block;
+            min-height: 150px;
+            height: 150px;
+            max-height: 400px;
+          }
+
+          input[type=checkbox] {
+            display: none;
+          }
+
+          input[type=checkbox] + label {
+            padding-left: 40px;
+            position: relative;
+            line-height: 30px;
+            display: block;
+            font-weight: bold;
+            cursor: pointer;
+            vertical-align: middle;
+
+            &:before {
+              color: #e3e3e3;
+              font-weight: normal;
+              text-align: left;
+              font-size: 30px;
+              width: 30px;
+              height: 30px;
+              position: absolute;
+              left: 0;
+              top: 0;
+              font-family: 'FontAwesome';
+              content:"\f096";
+            }
+          }
+          input[type=checkbox]:checked + label {
+            &:before {
+              content :"\f046";
+              color: $color-orange;
+            }
+          }
+        }
+
+        &.input_megrendelo_email{
+          flex-basis: calc(100%/2);
+        }
+        &.input_megrendelo_phone{
+          flex-basis: calc(100%/2);
+        }
+        &.input_utasbiztositas_sztorno{
+          flex-basis: calc(100%/3);
+        }
+        &.input_utasbiztositas_utasbiztositas{
+          flex-basis: calc(100%/3);
+        }
+        &.input_post_address_irsz{
+          flex-basis: 20%;
+        }
+        &.input_post_address_city{
+          flex-basis: 30%;
+        }
+        &.input_post_address_address{
+          flex-basis: 50%;
+        }
       }
     }
   }
@@ -441,4 +540,5 @@ body.single-utazas {
       }
     }
   }
+
 }
