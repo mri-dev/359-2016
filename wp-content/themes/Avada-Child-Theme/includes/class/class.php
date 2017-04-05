@@ -6,4 +6,5 @@
   require_once "ShortcodeTemplates.php";
   require_once "AjaxRequests.php";
   require_once "UtazasMetaboxSave.php";
+  require_once "UtazasUrlapMetaboxSave.php";
 ?>

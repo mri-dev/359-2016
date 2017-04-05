@@ -1,5 +1,6 @@
 <?php
   $form_prefix = 'megrendelo_';
+  $cfgprefix = AutoformFactory::METAKEY_PREFIX;
 ?>
 <div class="form-part-group">
   <div class="head">
@@ -14,18 +15,18 @@
     </div>
     <div class="input input_<?=$form_prefix.'email'?>">
       <div class="iwrapper">
-        <label for="<?=$form_prefix.'email'?>"><?php echo __('E-mail cím', TD);?></label>
-        <input type="text" name="<?=str_replace('_','',$form_prefix).'[email]'?>" id="<?=$form_prefix.'email'?>" value="">
+        <label for="<?=$form_prefix.'email'?>"><?php echo __('E-mail cím', TD);?>*</label>
+        <input type="text" name="<?=str_replace('_','',$form_prefix).'[email]'?>" id="<?=$form_prefix.'email'?>" required="required" value="">
       </div>
     </div>
     <div class="input input_<?=$form_prefix.'phone'?>">
       <div class="iwrapper">
-        <label for="<?=$form_prefix.'phone'?>"><?php echo __('Telefonszám', TD);?></label>
-        <input type="text" name="<?=str_replace('_','',$form_prefix).'[phone]'?>" id="<?=$form_prefix.'phone'?>" value="">
+        <label for="<?=$form_prefix.'phone'?>"><?php echo __('Telefonszám', TD);?>*</label>
+        <input type="text" name="<?=str_replace('_','',$form_prefix).'[phone]'?>" id="<?=$form_prefix.'phone'?>" required="required" value="">
       </div>
     </div>
 
-    <?php if ( $config['show_post_address']  !== false ): ?>
+    <?php if ( $config[$cfgprefix.'show_post_address']  !== false ): ?>
       <div class="input input_<?=$form_prefix.'post_address'?>">
         <div class="iwrapper">
           <label for="<?=$form_prefix.'post_address'?>"><?php echo __('Levelezési cím', TD);?>*</label>
@@ -49,7 +50,7 @@
         </div>
       </div>
     <?php endif; ?>
-    <?php if ( $config['show_invoicing_data'] !== false ): ?>
+    <?php if ( $config[$cfgprefix.'show_invoicing_data'] !== false ): ?>
       <div class="input input_<?=$form_prefix.'invoice_address'?>">
         <div class="iwrapper">
           <label for="<?=$form_prefix.'invoice_address'?>"><?php echo __('Számlázási cím', TD);?>*</label>

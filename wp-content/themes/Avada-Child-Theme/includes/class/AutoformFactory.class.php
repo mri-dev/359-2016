@@ -11,9 +11,26 @@
 
     function __construct()
     {
+      $flags = array();
+
       $this->config_metakeys['form_type'] = self::METAKEY_PREFIX . 'form_type';
-      $this->config_metakeys['show_invoicing_data'] = self::METAKEY_PREFIX . 'show_invoicing_data';
-      $this->config_metakeys['show_post_address'] = self::METAKEY_PREFIX . 'show_post_address';
+
+        $flags[] = array(
+          'id' => self::METAKEY_PREFIX . 'show_invoicing_data',
+          'text' => __('Számlázási adatbekérése', TD)
+        );
+
+        $flags[] = array(
+          'id' => self::METAKEY_PREFIX . 'show_post_address',
+          'text' => __('Levelezési cím adatbekérés', TD)
+        );
+
+        $flags[] = array(
+          'id' => self::METAKEY_PREFIX . 'show_date_inout',
+          'text' => __('Indulás / Érkezés adatbekérés', TD)
+        );
+
+      $this->config_metakeys['feature_flags'] = $flags;
 
       return $this;
     }

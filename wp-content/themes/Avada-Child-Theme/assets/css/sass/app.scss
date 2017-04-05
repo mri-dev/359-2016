@@ -1,5 +1,12 @@
 @import 'settings';
 
+.button-default{
+  background: $color-orange;
+  &:hover {
+    background: darken($color-orange, 10%);
+  }
+}
+
 body.term-iskolaknak {
   &.tax-utazas_kategoria{
     .fusion-row{
@@ -416,6 +423,23 @@ body.single-utazas {
       }
     }
 
+    .fusion-button.inprogress{
+      background: grey;
+    }
+    .fusion-button.success-send{
+      background: #39b139;
+    }
+
+    .fusion-alert {
+      text-align: left;
+      text-transform: none;
+    }
+    .alert-danger{
+      background: #ffe8e8;
+      border: 1px solid #fdc6c6;
+      color: #d24f4f;
+    }
+
     .input-holder {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -429,9 +453,11 @@ body.single-utazas {
           padding: 10px;
           label:not(.cb) {
             display: block;
-
             padding: 0 0 5px 0;
             font-weight: bold;
+            font-family: 'Arial';
+            color: black;
+            font-size: 0.9em;
           }
 
           input[type=text],
@@ -444,6 +470,11 @@ body.single-utazas {
             border-color: #d2d2d2;
             border-style: solid;
             border-width: 1px;
+
+            &.error-input {
+              border-color: #ffabab;
+              background-color: #fff0f0;
+            }
           }
          input[type=number]{
            display: block;
@@ -469,6 +500,9 @@ body.single-utazas {
             font-weight: bold;
             cursor: pointer;
             vertical-align: middle;
+            font-family: 'Arial';
+            color: black;
+            font-size: 0.9em;
 
             &:before {
               color: #e3e3e3;
@@ -492,6 +526,8 @@ body.single-utazas {
           }
         }
 
+
+
         &.input_megrendelo_email{
           flex-basis: calc(100%/2);
         }
@@ -514,6 +550,10 @@ body.single-utazas {
           flex-basis: 50%;
         }
       }
+    }
+    &.submit-form {
+      text-align: right;
+      padding: 10px 0;
     }
   }
 }

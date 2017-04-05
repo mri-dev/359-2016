@@ -34,19 +34,32 @@ class AutoformSC extends AutoformFactory
         /* Parse the arguments. */
         $attr = shortcode_atts( $defaults, $attr );
 
-        $this->add_form_parts(__('Ajánlat összesítő', TD), 'osszesito');
+        $this->load_settings( $post );
+        $config = $this->get_config();
+
+        switch ($config['form_type']) {
+          case  AutoformFactory::FORMTYPE_AJANLAT:
+            $osszesito_title = __('Ajánlatkérés paraméterei', TD);
+          break;
+          case  AutoformFactory::FORMTYPE_FOGLALAS:
+            $osszesito_title = __('Foglalás paraméterei', TD);
+          break;
+        }
+
+        $this->add_form_parts($osszesito_title, 'osszesito');
         $this->add_form_parts(__('Utasbiztosítas', TD), 'utasbiztositas');
         $this->add_form_parts(__('Megrendelő adatai', TD), 'megrendelo_adatok');
         $this->add_form_parts(__('Opciók', TD), 'opciok');
 
         $form_parts = $this->load_form_parts();
 
-        $this->load_settings( $post );
-        $config = $this->get_config();
-
-
         if ($form_parts)
         {
+          ob_start();
+          include( get_stylesheet_directory(). "/templates/shortcodes/Autoform/parts/before.php");
+          $output .= ob_get_contents();
+          ob_end_clean();
+
           foreach ($form_parts as $part)
           {
             ob_start();
@@ -55,12 +68,13 @@ class AutoformSC extends AutoformFactory
             $output .= ob_get_contents();
             ob_end_clean();
           }
+
+          ob_start();
+          include( get_stylesheet_directory(). "/templates/shortcodes/Autoform/parts/after.php");
+          $output .= ob_get_contents();
+          ob_end_clean();
         }
 
-
-        echo '<pre>';
-          print_r($config);
-        echo '</pre>';
 
         $output .= '</div>';
 
@@ -88,6 +102,14 @@ class AutoformSC extends AutoformFactory
 
       foreach ( (array)$cfgs as $key => $metakey )
       {
+        if(is_array($metakey)) {
+          foreach ($metakey as $flags) {
+            $value = get_post_meta($post->ID, $flags['id'], true);
+            $this->_config[$flags['id']] = $value;
+          }
+          continue;
+        }
+
         $value = get_post_meta($post->ID, $metakey, true);
 
         if(empty($value) && isset($this->_config[$key])) {

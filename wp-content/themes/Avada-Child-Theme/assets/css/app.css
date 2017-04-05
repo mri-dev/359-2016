@@ -1,20 +1,32 @@
-/* line 5, sass/app.scss */
+/* line 3, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/app.scss */
+.button-default {
+  background: #faa629;
+}
+
+/* line 5, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/app.scss */
+.button-default:hover {
+  background: #eb8e05;
+}
+
+/* line 12, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/app.scss */
 body.term-iskolaknak.tax-utazas_kategoria .fusion-row {
   width: 100% !important;
   max-width: 100% !important;
 }
-/* line 11, sass/app.scss */
+
+/* line 18, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/app.scss */
 body.term-iskolaknak.tax-utazas_kategoria .fusion-footer .fusion-row {
   width: 1100px !important;
   max-width: 1100px !important;
 }
 
-/* line 20, sass/app.scss */
+/* line 27, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/app.scss */
 body.single-utazas #content {
   position: relative;
   margin-top: -110px;
 }
-/* line 27, sass/app.scss */
+
+/* line 34, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/app.scss */
 body.single-utazas .header .title h1 {
   text-transform: uppercase;
   color: white;
@@ -22,57 +34,67 @@ body.single-utazas .header .title h1 {
   margin: 0;
   line-height: 90px;
 }
-/* line 35, sass/app.scss */
+
+/* line 42, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/app.scss */
 body.single-utazas .header .square-buttons {
   margin-bottom: 20px;
 }
-/* line 40, sass/app.scss */
+
+/* line 47, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/app.scss */
 body.single-utazas .fusion-row {
   width: 100% !important;
   max-width: 100% !important;
 }
-/* line 46, sass/app.scss */
+
+/* line 53, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/app.scss */
 body.single-utazas .fusion-footer .fusion-row {
   width: 1100px !important;
   max-width: 1100px !important;
 }
-/* line 52, sass/app.scss */
+
+/* line 59, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/app.scss */
 body.single-utazas .inside-pagewidth {
   padding: 20px 0;
   width: 1100px !important;
   max-width: 1100px !important;
   margin: 0 auto;
 }
-/* line 59, sass/app.scss */
+
+/* line 66, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/app.scss */
 body.single-utazas .desc {
   padding: 5px 0;
 }
-/* line 62, sass/app.scss */
+
+/* line 69, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/app.scss */
 body.single-utazas .desc h1 {
   text-transform: uppercase;
   color: #faa629;
   margin: 0 0 25px 0;
 }
-/* line 69, sass/app.scss */
+
+/* line 76, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/app.scss */
 body.single-utazas .price_desc {
   padding: 20px 0;
-  background: #26292b;
+  background: #26292B;
   color: white;
 }
-/* line 74, sass/app.scss */
+
+/* line 81, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/app.scss */
 body.single-utazas .price_desc h2 {
   color: white;
   text-transform: uppercase;
   font-weight: bold !important;
   font-family: 'Open Sans' !important;
 }
-/* line 82, sass/app.scss */
+
+/* line 89, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/app.scss */
 body.single-utazas .program_desc {
   padding: 20px 0;
   background: #faa629;
   color: white;
 }
-/* line 87, sass/app.scss */
+
+/* line 94, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/app.scss */
 body.single-utazas .program_desc h2 {
   color: white;
   text-transform: uppercase;
@@ -80,7 +102,7 @@ body.single-utazas .program_desc h2 {
   font-family: 'Open Sans' !important;
 }
 
-/* line 97, sass/app.scss */
+/* line 104, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/app.scss */
 .square-buttons ul {
   list-style: none;
   margin: 0;
@@ -89,7 +111,8 @@ body.single-utazas .program_desc h2 {
   background: #eae9e9;
   position: relative;
 }
-/* line 105, sass/app.scss */
+
+/* line 112, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/app.scss */
 .square-buttons ul li {
   display: table-cell;
   margin: 0;
@@ -98,7 +121,8 @@ body.single-utazas .program_desc h2 {
   vertical-align: middle;
   border-right: 1px solid #ffffff;
 }
-/* line 113, sass/app.scss */
+
+/* line 120, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/app.scss */
 .square-buttons ul li:after {
   content: "";
   right: 0;
@@ -108,7 +132,8 @@ body.single-utazas .program_desc h2 {
   width: 1px;
   background: #ffffff;
 }
-/* line 123, sass/app.scss */
+
+/* line 130, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/app.scss */
 .square-buttons ul li a {
   text-align: center;
   line-height: 1.3;
@@ -119,48 +144,56 @@ body.single-utazas .program_desc h2 {
   color: #939292;
   text-transform: uppercase;
 }
-/* line 134, sass/app.scss */
+
+/* line 141, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/app.scss */
 .square-buttons ul li:last-child {
   border-right: none;
 }
-/* line 138, sass/app.scss */
+
+/* line 145, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/app.scss */
 .square-buttons ul li.active {
   background: #faa629;
 }
-/* line 140, sass/app.scss */
+
+/* line 147, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/app.scss */
 .square-buttons ul li.active a {
   color: white;
 }
 
-/* line 149, sass/app.scss */
+/* line 156, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/app.scss */
 .content-top-navi {
   font-size: 1.3em;
 }
-/* line 152, sass/app.scss */
+
+/* line 159, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/app.scss */
 .content-top-navi i {
   color: #717171;
   font-size: 18px;
   margin: 20px 0 10px 0;
 }
-/* line 157, sass/app.scss */
+
+/* line 164, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/app.scss */
 .content-top-navi a {
   color: #939292 !important;
 }
-/* line 159, sass/app.scss */
+
+/* line 166, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/app.scss */
 .content-top-navi a:hover {
   color: #777777 !important;
 }
-/* line 164, sass/app.scss */
+
+/* line 171, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/app.scss */
 .content-top-navi .navi-orange-style {
   background: #faa629;
   color: white;
 }
-/* line 168, sass/app.scss */
+
+/* line 175, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/app.scss */
 .content-top-navi .navi-orange-style i, .content-top-navi .navi-orange-style a {
   color: white !important;
 }
 
-/* line 174, sass/app.scss */
+/* line 181, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/app.scss */
 .fusion-footer .fb-ico {
   font-size: 1.5em;
   line-height: 38px;
@@ -168,7 +201,8 @@ body.single-utazas .program_desc h2 {
   float: right;
   position: relative;
 }
-/* line 181, sass/app.scss */
+
+/* line 188, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/app.scss */
 .fusion-footer .fb-ico:before {
   font-family: 'FontAwesome';
   content: "\f09a";
@@ -184,28 +218,32 @@ body.single-utazas .program_desc h2 {
   margin: 0;
   width: 38px;
 }
-/* line 198, sass/app.scss */
+
+/* line 205, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/app.scss */
 .fusion-footer .copy-logo {
   padding-left: 80px;
 }
-/* line 202, sass/app.scss */
+
+/* line 209, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/app.scss */
 .fusion-footer .footer-logo-holder {
   position: absolute;
   left: 0;
   bottom: 0;
 }
-/* line 207, sass/app.scss */
+
+/* line 214, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/app.scss */
 .fusion-footer .footer-logo-holder .logo {
   width: 65px;
   max-width: 65px;
 }
-/* line 212, sass/app.scss */
+
+/* line 219, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/app.scss */
 .fusion-footer .footer-logo-holder .logo img {
   max-width: 100%;
   width: 100%;
 }
 
-/* line 221, sass/app.scss */
+/* line 228, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/app.scss */
 .krakko-card-home h1 {
   color: #faa629 !important;
   font-weight: bold !important;
@@ -214,7 +252,7 @@ body.single-utazas .program_desc h2 {
   margin: 0 0 20px 0 !important;
 }
 
-/* line 230, sass/app.scss */
+/* line 237, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/app.scss */
 .page-top-link {
   background: #ECECEC !important;
   padding: 30px;
@@ -222,34 +260,39 @@ body.single-utazas .program_desc h2 {
   text-transform: uppercase !important;
   font-size: 1.4em !important;
 }
-/* line 237, sass/app.scss */
+
+/* line 244, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/app.scss */
 .page-top-link .fusion-button-text {
   color: #979797 !important;
 }
-/* line 241, sass/app.scss */
+
+/* line 248, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/app.scss */
 .page-top-link.link-orange {
   background: #faa629 !important;
   color: white !important;
 }
-/* line 245, sass/app.scss */
+
+/* line 252, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/app.scss */
 .page-top-link.link-orange .fusion-button-text {
   color: #ffffff !important;
 }
 
-/* line 251, sass/app.scss */
+/* line 258, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/app.scss */
 .fusion-main-menu .sub-menu {
   border-top: none;
 }
 
-/* line 255, sass/app.scss */
+/* line 262, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/app.scss */
 .fusion-main-menu .sub-menu li {
   position: relative;
 }
-/* line 258, sass/app.scss */
+
+/* line 265, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/app.scss */
 .fusion-main-menu .sub-menu li a {
   padding-left: 15px;
 }
-/* line 261, sass/app.scss */
+
+/* line 268, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/app.scss */
 .fusion-main-menu .sub-menu li:after {
   content: "";
   height: 1px;
@@ -263,35 +306,40 @@ body.single-utazas .program_desc h2 {
   -moz-transform: translateX(-50%);
   transform: translateX(-50%);
 }
-/* line 275, sass/app.scss */
+
+/* line 282, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/app.scss */
 .fusion-main-menu .sub-menu li:last-child:after {
   display: none;
 }
 
-/* line 284, sass/app.scss */
+/* line 291, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/app.scss */
 .sc-loadpage-loadfromparent-holder.style-2x2 .load-page-item,
 .sc-loadpage-loadfromtaxonomy-holder.style-2x2 .load-page-item {
   background: #ffffff;
 }
-/* line 287, sass/app.scss */
+
+/* line 294, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/app.scss */
 .sc-loadpage-loadfromparent-holder.style-2x2 .load-page-item .lpi-wrapper,
 .sc-loadpage-loadfromtaxonomy-holder.style-2x2 .load-page-item .lpi-wrapper {
   display: flex;
   align-items: center;
   padding: 0;
 }
-/* line 292, sass/app.scss */
+
+/* line 299, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/app.scss */
 .sc-loadpage-loadfromparent-holder.style-2x2 .load-page-item .lpi-wrapper .item-data, .sc-loadpage-loadfromparent-holder.style-2x2 .load-page-item .lpi-wrapper .item-image,
 .sc-loadpage-loadfromtaxonomy-holder.style-2x2 .load-page-item .lpi-wrapper .item-data,
 .sc-loadpage-loadfromtaxonomy-holder.style-2x2 .load-page-item .lpi-wrapper .item-image {
   flex-basis: calc(100%/2);
 }
-/* line 295, sass/app.scss */
+
+/* line 302, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/app.scss */
 .sc-loadpage-loadfromparent-holder.style-2x2 .load-page-item .lpi-wrapper .item-data,
 .sc-loadpage-loadfromtaxonomy-holder.style-2x2 .load-page-item .lpi-wrapper .item-data {
   font-size: 1.1em;
 }
-/* line 298, sass/app.scss */
+
+/* line 305, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/app.scss */
 .sc-loadpage-loadfromparent-holder.style-2x2 .load-page-item .lpi-wrapper .item-data .title h2,
 .sc-loadpage-loadfromtaxonomy-holder.style-2x2 .load-page-item .lpi-wrapper .item-data .title h2 {
   font-size: 1.8em !important;
@@ -301,17 +349,20 @@ body.single-utazas .program_desc h2 {
   font-weight: bold !important;
   font-family: 'Open Sans' !important;
 }
-/* line 305, sass/app.scss */
+
+/* line 312, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/app.scss */
 .sc-loadpage-loadfromparent-holder.style-2x2 .load-page-item .lpi-wrapper .item-data .title h2 a,
 .sc-loadpage-loadfromtaxonomy-holder.style-2x2 .load-page-item .lpi-wrapper .item-data .title h2 a {
   color: #444444;
 }
-/* line 308, sass/app.scss */
+
+/* line 315, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/app.scss */
 .sc-loadpage-loadfromparent-holder.style-2x2 .load-page-item .lpi-wrapper .item-data .title h2 a:hover,
 .sc-loadpage-loadfromtaxonomy-holder.style-2x2 .load-page-item .lpi-wrapper .item-data .title h2 a:hover {
   color: #111111;
 }
-/* line 314, sass/app.scss */
+
+/* line 321, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/app.scss */
 .sc-loadpage-loadfromparent-holder.style-2x2 .load-page-item .lpi-wrapper .item-data .title a.fusion-button,
 .sc-loadpage-loadfromtaxonomy-holder.style-2x2 .load-page-item .lpi-wrapper .item-data .title a.fusion-button {
   background: #faa629;
@@ -319,105 +370,122 @@ body.single-utazas .program_desc h2 {
   padding: 4px 40px;
   margin-top: 10px;
 }
-/* line 321, sass/app.scss */
+
+/* line 328, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/app.scss */
 .sc-loadpage-loadfromparent-holder.style-2x2 .load-page-item .lpi-wrapper .item-data .excerpt,
 .sc-loadpage-loadfromtaxonomy-holder.style-2x2 .load-page-item .lpi-wrapper .item-data .excerpt {
   font-size: 0.9em;
 }
-/* line 326, sass/app.scss */
+
+/* line 333, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/app.scss */
 .sc-loadpage-loadfromparent-holder.style-2x2 .load-page-item .lpi-wrapper .item-image img,
 .sc-loadpage-loadfromtaxonomy-holder.style-2x2 .load-page-item .lpi-wrapper .item-image img {
   width: 100%;
   max-width: 100%;
 }
-/* line 335, sass/app.scss */
+
+/* line 342, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/app.scss */
 .sc-loadpage-loadfromparent-holder.style-2x2 .load-page-item.pos-left .item-data .cwrapper,
 .sc-loadpage-loadfromtaxonomy-holder.style-2x2 .load-page-item.pos-left .item-data .cwrapper {
   padding: 0 50px 0 25%;
   text-align: right;
 }
-/* line 342, sass/app.scss */
+
+/* line 349, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/app.scss */
 .sc-loadpage-loadfromparent-holder.style-2x2 .load-page-item.pos-right .item-data,
 .sc-loadpage-loadfromtaxonomy-holder.style-2x2 .load-page-item.pos-right .item-data {
   order: 2;
 }
-/* line 344, sass/app.scss */
+
+/* line 351, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/app.scss */
 .sc-loadpage-loadfromparent-holder.style-2x2 .load-page-item.pos-right .item-data .cwrapper,
 .sc-loadpage-loadfromtaxonomy-holder.style-2x2 .load-page-item.pos-right .item-data .cwrapper {
   padding: 0 25% 0 50px;
   text-align: left;
 }
-/* line 349, sass/app.scss */
+
+/* line 356, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/app.scss */
 .sc-loadpage-loadfromparent-holder.style-2x2 .load-page-item.pos-right .item-image,
 .sc-loadpage-loadfromtaxonomy-holder.style-2x2 .load-page-item.pos-right .item-image {
   order: 1;
 }
-/* line 354, sass/app.scss */
+
+/* line 361, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/app.scss */
 .sc-loadpage-loadfromparent-holder.style-2x2 .load-page-item.bg-orange,
 .sc-loadpage-loadfromtaxonomy-holder.style-2x2 .load-page-item.bg-orange {
   background: #faa629 !important;
   color: white !important;
 }
-/* line 358, sass/app.scss */
+
+/* line 365, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/app.scss */
 .sc-loadpage-loadfromparent-holder.style-2x2 .load-page-item.bg-orange .title h2, .sc-loadpage-loadfromparent-holder.style-2x2 .load-page-item.bg-orange a,
 .sc-loadpage-loadfromtaxonomy-holder.style-2x2 .load-page-item.bg-orange .title h2,
 .sc-loadpage-loadfromtaxonomy-holder.style-2x2 .load-page-item.bg-orange a {
   color: white !important;
 }
-/* line 361, sass/app.scss */
+
+/* line 368, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/app.scss */
 .sc-loadpage-loadfromparent-holder.style-2x2 .load-page-item.bg-orange a:hover,
 .sc-loadpage-loadfromtaxonomy-holder.style-2x2 .load-page-item.bg-orange a:hover {
   color: #fae8cd !important;
 }
-/* line 364, sass/app.scss */
+
+/* line 371, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/app.scss */
 .sc-loadpage-loadfromparent-holder.style-2x2 .load-page-item.bg-orange a.fusion-button,
 .sc-loadpage-loadfromtaxonomy-holder.style-2x2 .load-page-item.bg-orange a.fusion-button {
   background: white !important;
   color: #faa629 !important;
 }
-/* line 370, sass/app.scss */
+
+/* line 377, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/app.scss */
 .sc-loadpage-loadfromparent-holder.style-2x2 .load-page-item.bg-grey,
 .sc-loadpage-loadfromtaxonomy-holder.style-2x2 .load-page-item.bg-grey {
   background: #32343c;
   color: white !important;
 }
-/* line 376, sass/app.scss */
+
+/* line 383, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/app.scss */
 .sc-loadpage-loadfromparent-holder.style-2x2 .load-page-item.bg-grey .item-data .title h2,
 .sc-loadpage-loadfromtaxonomy-holder.style-2x2 .load-page-item.bg-grey .item-data .title h2 {
   color: white !important;
 }
-/* line 378, sass/app.scss */
+
+/* line 385, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/app.scss */
 .sc-loadpage-loadfromparent-holder.style-2x2 .load-page-item.bg-grey .item-data .title h2 a,
 .sc-loadpage-loadfromtaxonomy-holder.style-2x2 .load-page-item.bg-grey .item-data .title h2 a {
   color: white !important;
 }
-/* line 381, sass/app.scss */
+
+/* line 388, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/app.scss */
 .sc-loadpage-loadfromparent-holder.style-2x2 .load-page-item.bg-grey .item-data .title h2 a:hover,
 .sc-loadpage-loadfromtaxonomy-holder.style-2x2 .load-page-item.bg-grey .item-data .title h2 a:hover {
   color: #e6e6e6 !important;
 }
 
-/* line 392, sass/app.scss */
+/* line 399, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/app.scss */
 .utazas-contact-static {
   margin-bottom: 20px;
   font-size: 1.1em;
 }
-/* line 395, sass/app.scss */
+
+/* line 402, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/app.scss */
 .utazas-contact-static .line {
   margin: 10px 0;
 }
-/* line 398, sass/app.scss */
+
+/* line 405, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/app.scss */
 .utazas-contact-static .line strong {
   color: black;
   font-weight: bold;
 }
 
-/* line 406, sass/app.scss */
+/* line 413, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/app.scss */
 .autoform-holder .form-part-group {
   border-top: 1px solid #faa629;
   margin: 20px 0 10px 0;
 }
-/* line 410, sass/app.scss */
+
+/* line 417, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/app.scss */
 .autoform-holder .form-part-group .head h3 {
   text-transform: uppercase;
   font-weight: bold;
@@ -425,7 +493,31 @@ body.single-utazas .program_desc h2 {
   font-family: 'Arial';
   margin: 10px 0 5px 0;
 }
-/* line 419, sass/app.scss */
+
+/* line 426, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/app.scss */
+.autoform-holder .form-part-group .fusion-button.inprogress {
+  background: grey;
+}
+
+/* line 429, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/app.scss */
+.autoform-holder .form-part-group .fusion-button.success-send {
+  background: #39b139;
+}
+
+/* line 433, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/app.scss */
+.autoform-holder .form-part-group .fusion-alert {
+  text-align: left;
+  text-transform: none;
+}
+
+/* line 437, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/app.scss */
+.autoform-holder .form-part-group .alert-danger {
+  background: #ffe8e8;
+  border: 1px solid #fdc6c6;
+  color: #d24f4f;
+}
+
+/* line 443, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/app.scss */
 .autoform-holder .form-part-group .input-holder {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -433,21 +525,28 @@ body.single-utazas .program_desc h2 {
   flex-wrap: wrap;
   margin: 0 -10px;
 }
-/* line 426, sass/app.scss */
+
+/* line 450, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/app.scss */
 .autoform-holder .form-part-group .input-holder .input {
   flex-basis: 100%;
 }
-/* line 428, sass/app.scss */
+
+/* line 452, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/app.scss */
 .autoform-holder .form-part-group .input-holder .input .iwrapper {
   padding: 10px;
 }
-/* line 430, sass/app.scss */
+
+/* line 454, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/app.scss */
 .autoform-holder .form-part-group .input-holder .input .iwrapper label:not(.cb) {
   display: block;
   padding: 0 0 5px 0;
   font-weight: bold;
+  font-family: 'Arial';
+  color: black;
+  font-size: 0.9em;
 }
-/* line 439, sass/app.scss */
+
+/* line 463, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/app.scss */
 .autoform-holder .form-part-group .input-holder .input .iwrapper input[type=text],
 .autoform-holder .form-part-group .input-holder .input .iwrapper input[type=number],
 .autoform-holder .form-part-group .input-holder .input .iwrapper textarea {
@@ -459,12 +558,22 @@ body.single-utazas .program_desc h2 {
   border-style: solid;
   border-width: 1px;
 }
-/* line 448, sass/app.scss */
+
+/* line 474, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/app.scss */
+.autoform-holder .form-part-group .input-holder .input .iwrapper input[type=text].error-input,
+.autoform-holder .form-part-group .input-holder .input .iwrapper input[type=number].error-input,
+.autoform-holder .form-part-group .input-holder .input .iwrapper textarea.error-input {
+  border-color: #ffabab;
+  background-color: #fff0f0;
+}
+
+/* line 479, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/app.scss */
 .autoform-holder .form-part-group .input-holder .input .iwrapper input[type=number] {
   display: block;
   width: 100%;
 }
-/* line 452, sass/app.scss */
+
+/* line 483, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/app.scss */
 .autoform-holder .form-part-group .input-holder .input .iwrapper textarea {
   width: 100%;
   display: block;
@@ -472,11 +581,13 @@ body.single-utazas .program_desc h2 {
   height: 150px;
   max-height: 400px;
 }
-/* line 460, sass/app.scss */
+
+/* line 491, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/app.scss */
 .autoform-holder .form-part-group .input-holder .input .iwrapper input[type=checkbox] {
   display: none;
 }
-/* line 464, sass/app.scss */
+
+/* line 495, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/app.scss */
 .autoform-holder .form-part-group .input-holder .input .iwrapper input[type=checkbox] + label {
   padding-left: 40px;
   position: relative;
@@ -485,8 +596,12 @@ body.single-utazas .program_desc h2 {
   font-weight: bold;
   cursor: pointer;
   vertical-align: middle;
+  font-family: 'Arial';
+  color: black;
+  font-size: 0.9em;
 }
-/* line 473, sass/app.scss */
+
+/* line 507, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/app.scss */
 .autoform-holder .form-part-group .input-holder .input .iwrapper input[type=checkbox] + label:before {
   color: #e3e3e3;
   font-weight: normal;
@@ -500,56 +615,73 @@ body.single-utazas .program_desc h2 {
   font-family: 'FontAwesome';
   content: "\f096";
 }
-/* line 488, sass/app.scss */
+
+/* line 522, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/app.scss */
 .autoform-holder .form-part-group .input-holder .input .iwrapper input[type=checkbox]:checked + label:before {
   content: "\f046";
   color: #faa629;
 }
-/* line 495, sass/app.scss */
+
+/* line 531, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/app.scss */
 .autoform-holder .form-part-group .input-holder .input.input_megrendelo_email {
   flex-basis: calc(100%/2);
 }
-/* line 498, sass/app.scss */
+
+/* line 534, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/app.scss */
 .autoform-holder .form-part-group .input-holder .input.input_megrendelo_phone {
   flex-basis: calc(100%/2);
 }
-/* line 501, sass/app.scss */
+
+/* line 537, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/app.scss */
 .autoform-holder .form-part-group .input-holder .input.input_utasbiztositas_sztorno {
   flex-basis: calc(100%/3);
 }
-/* line 504, sass/app.scss */
+
+/* line 540, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/app.scss */
 .autoform-holder .form-part-group .input-holder .input.input_utasbiztositas_utasbiztositas {
   flex-basis: calc(100%/3);
 }
-/* line 507, sass/app.scss */
+
+/* line 543, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/app.scss */
 .autoform-holder .form-part-group .input-holder .input.input_post_address_irsz {
   flex-basis: 20%;
 }
-/* line 510, sass/app.scss */
+
+/* line 546, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/app.scss */
 .autoform-holder .form-part-group .input-holder .input.input_post_address_city {
   flex-basis: 30%;
 }
-/* line 513, sass/app.scss */
+
+/* line 549, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/app.scss */
 .autoform-holder .form-part-group .input-holder .input.input_post_address_address {
   flex-basis: 50%;
 }
 
-/* line 522, sass/app.scss */
+/* line 554, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/app.scss */
+.autoform-holder .form-part-group.submit-form {
+  text-align: right;
+  padding: 10px 0;
+}
+
+/* line 562, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/app.scss */
 .tax-utazas_kategoria .page-width {
   width: 1100px;
   margin: 0 auto;
 }
-/* line 527, sass/app.scss */
+
+/* line 567, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/app.scss */
 .tax-utazas_kategoria .header {
   margin-top: -90px;
   position: relative;
   z-index: 1000;
 }
-/* line 531, sass/app.scss */
+
+/* line 571, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/app.scss */
 .tax-utazas_kategoria .header .title {
   padding-bottom: 40px;
 }
-/* line 533, sass/app.scss */
+
+/* line 573, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/krakko/359-2016/wp-content/themes/Avada-Child-Theme/assets/css/sass/app.scss */
 .tax-utazas_kategoria .header .title h1 {
   text-transform: uppercase;
   font-size: 3em;
@@ -558,3 +690,5 @@ body.single-utazas .program_desc h2 {
   padding: 0;
   color: white;
 }
+
+/*# sourceMappingURL=../app.map */

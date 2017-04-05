@@ -7,30 +7,43 @@ class AjaxRequests
     return $this;
   }
 
-  public function sample()
+  public function handleAutoform()
   {
-    //add_action( 'wp_ajax_'.__FUNCTION__, array( $this, 'checkPropertyFavorites'));
-    //add_action( 'wp_ajax_nopriv_'.__FUNCTION__, array( $this, 'checkPropertyFavorites'));
+    add_action( 'wp_ajax_'.__FUNCTION__, array( $this, 'handleAutoformRequest'));
+    add_action( 'wp_ajax_nopriv_'.__FUNCTION__, array( $this, 'handleAutoformRequest'));
   }
 
-
-  public function sample_do()
+  public function handleAutoformRequest()
   {
     global $wpdb;
-
     extract($_POST);
-    $return = array();
+    $return = array(
+      'error' => false,
+      'msg' => false,
+    );
+    $error = false;
+    $errmsg = '';
+    ////////////////////////////////
 
-    //ob_start();
-  	  //include(locate_template('templates/mails/utazasi-ajanlatkero-ertesites.php'));
-      //$message = ob_get_contents();
-		//ob_end_clean();
+    parse_str($data, $data);
 
+    $return['form_data'] = $data;
+
+    // ERROR
+    if ( $error ) {
+      $this->JSONError($errmsg, $return );
+    }
+
+    /**
+    * Send Mails
+    **/
+
+    // For admin
+    // For user
 
     echo json_encode($return);
     die();
   }
-
 
   public function getMailFormat(){
       return "text/html";
@@ -50,6 +63,27 @@ class AjaxRequests
   {
     echo json_encode($array);
     die();
+  }
+
+  public function JSONError($text, $return )
+  {
+    $return['msg'] = $this->alertMsg($text, 'error');
+    $return['error'] = true;
+
+    echo json_encode($return);
+    die();
+  }
+
+  public function alertMsg( $text, $type = 'error' )
+  {
+    switch ($type) {
+      case 'error':
+        return '<div class="fusion-alert alert-danger alert-shadow">'.$text.'</div>';
+      break;
+      case 'success':
+        return '<div class="fusion-alert alert-success alert-shadow">'.$text.'</div>';
+      break;
+    }
   }
 
 }
